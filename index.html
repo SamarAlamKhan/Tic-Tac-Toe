@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Tic Tac Toe.css">
+    <title>TIC TAC TOE</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="turnContainer">Turn of Player 'O'</div>
+        <div class="gameContainer">
+            <div class="gameBox">
+                <div class="box"><button class="tile 0"></button></div>
+                <div class="box"><button class="tile 1"></button></div>
+                <div class="box"><button class="tile 2"></button></div>
+                <div class="box"><button class="tile 3"></button></div>
+                <div class="box"><button class="tile 4"></button></div>
+                <div class="box"><button class="tile 5"></button></div>
+                <div class="box"><button class="tile 6"></button></div>
+                <div class="box"><button class="tile 7"></button></div>
+                <div class="box"><button class="tile 8"></button></div>
+            </div>
+        </div>
+        <div class="scoreContainer">
+            <div class="winner"></div>
+            <div class="score"></div>
+        </div>
+    </div>
+    <div class="buttonContainer">
+        <button class="gameButton" id="newGame" onclick="newGame()">NEW GAME</button>
+        <button class="gameButton" id="resetGame" onclick="resetGame()">RESET GAME</button>
+    </div>
+    <script src="./Tic Tac Toe.js"></script>
+</body>
+</html>
